@@ -1,0 +1,7 @@
+department,total_admissions,avg_los_hours,median_los_hours,min_los_hours,max_los_hours,avg_acuity,avg_age,home_count,transfer_count,deceased_count,home_pct,transfer_pct,mortality_rate_pct
+Cardiology,574,71.03,69.51,18.0,170.98,2.43,67.2,514,52,8,89.5,9.1,1.4
+Emergency,1100,7.4,7.2,1.5,24.2,2.92,54.5,927,155,18,84.3,14.1,1.6
+General Medicine,702,77.4,75.17,24.0,192.0,2.98,55.4,644,51,7,91.7,7.3,1.0
+ICU,433,118.96,112.7,24.0,303.49,1.74,56.9,324,77,32,74.8,17.8,7.4
+Orthopedics,373,52.24,52.24,20.0,116.75,3.09,52.4,350,19,4,93.8,5.1,1.1
+Pediatrics,318,40.19,39.16,12.0,100.04,2.79,8.4,281,31,6,88.4,9.7,1.9
