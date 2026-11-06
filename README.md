@@ -46,6 +46,33 @@ mini_project/
 
 ---
 
+## ☁️ Deploy to Streamlit Community Cloud (Free & Instant)
+
+You can deploy this dashboard directly to **[Streamlit Community Cloud](https://share.streamlit.io/)** in under 2 minutes:
+
+### Step 1: Create a GitHub Repository
+1. Go to [github.com/new](https://github.com/new) and create a repository (e.g. `hospital-flow-analytics`).
+2. Link your local repo and push:
+   ```bash
+   git remote add origin https://github.com/<YOUR_USERNAME>/hospital-flow-analytics.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+### Step 2: Deploy on Streamlit Cloud
+1. Sign in to **[share.streamlit.io](https://share.streamlit.io/)** with your GitHub account.
+2. Click **"New app"** or **"Create app"**.
+3. Configure the deployment settings:
+   - **Repository**: `<YOUR_USERNAME>/hospital-flow-analytics`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+   - **App URL**: Choose your custom URL subdomain (e.g., `hospital-ops-dashboard.streamlit.app`)
+4. Click **Deploy!**
+
+> **Note**: The app includes automatic self-bootstrapping. If datasets are ever missing, `app.py` will generate them on first run automatically.
+
+---
+
 ## 🚀 Quickstart & Execution
 
 ### 1. Generate Synthetic Data
